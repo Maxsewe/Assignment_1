@@ -5,13 +5,13 @@
     <title>Assignment_1</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 
  <style>
 
   body{
       background-color: darkcyan;
+
   }
   .a{
       text-align: center;
@@ -45,20 +45,21 @@ select{
     color: indigo;
 }
 .f{
-    width: 30%;
+    width: 100%;
     color: purple;
 }
 .g{
-    text-align: center ;
+    float: right;
 }
 .h{
-    text-align: right;
+  float: right;
 }
 .i{
-    color: yellowgreen;
+    color: indigo;
+    text-decoration: none;
 }
 .j{
-    text-align: center;
+    float: left;
 }
 .k{
    font-size: x-large;
@@ -69,7 +70,19 @@ table, tr, th, td {
     border: black solid 1px;
     border-collapse: collapse;
 }
+.l{
+  float: left;
+}
+.m{
+   float: right;
+}
+.n{
+    float: right;
+}
+div{
+    background-color: darkolivegreen;
 
+}
 
  </style>
 
@@ -77,12 +90,12 @@ table, tr, th, td {
 
 </head>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 <body>
 
 <h1 class="a" id="one"><i>Mama Mboga Grocery</i></h1>
 
-<a class="d" href="Logo">Logo</a>
+<a class="d" href="Logo"><iframe src="Image/Fruit.png" frameborder="0"></iframe></a>
 
 <a class="c" href="">Home</a>
 <a class="c" href="">About</a>
@@ -212,12 +225,13 @@ table, tr, th, td {
 <br><br><br>
 
 <iframe src="Shelley.jpg" frameborder="0">Image</iframe>
-<iframe src="Veges1.jpg" frameborder="0" width="240" height="150"></iframe>
-<iframe src="Tomato.jpg" frameborder="0">Image</iframe>
 
+<iframe src="Tomato.jpg" frameborder="0">Image</iframe>
+<iframe src="Image/onion.jpg" frameborder="0"></iframe>
+<iframe src="Image/avocado.jpg" frameborder="0">Image</iframe>
 <br><br><br>
 
-<video src="VideoG.mp4" autoplay height="440" width="380" controls></video>
+<video src="Video/Video%20G.mp4" autoplay height="440" width="380" controls></video>
 
 <br><br><br>
 
@@ -311,32 +325,67 @@ table, tr, th, td {
 
 </table>
 
-
 <br><br><br>
+<hr>
 
 
-<h3>Mama Mboga Grocery</h3>
-<p class="f">Go green for a healthy life. It's the life our ancestors dreamed of, here we are with the greens</p>
+<div>
 
-<h3 class="g">Location</h3>  <br><br>
-<h5 class="g"> Fedha Estate <br><br>
-    Fedha Road <br><br>
+    <div class="col-md-4 j">
+     <h3>Mama Mboga Grocery</h3>
+        <p class="f">Go green for a healthy life. It's the life our ancestors dreamed of, here we are with the greens</p>
+
+    </div>
+
+
+    <div class="col-md-4 g">
+        <h3>Location</h3>  <br>
+        <h5> Fedha Estate</h5>
+         Fedha Road <br>
     Equity Afya Street
-</h5>
+    </div>
 
 
-<h3 class="h">Contacts</h3> <br><br>
-<h5 class="h"> <a class="i" href="tel:+254710259246">254710259246</a> <br><br>
+    <div class="col-md-4 h">
+        <h3>Contacts</h3>
+        <br>
+       <h5> <a class="i" href="tel:+254710259246">254710259246</a> <br>
     <a class="i" href="email:sewemaxy@gmail.com">email</a>
 </h5>
+    </div>
 
 
-<h5 class="g">Privacy Policy</h5>
-<h5 class="h">Terms of Service</h5>
+</div>
 
-<br><br><br>
+<br><br>
+<div>
 
-<h5 class="j">&copy;Grocery - 2023   All Rights Reserved</h5>
+    <div class="col-md-4 l">
+        <h5>Privacy Policy</h5>
+    </div>
+
+
+    <div class="col-md-4 m">
+        <h5>Terms of Service</h5>
+
+    </div>
+    <div class="col-md-4 n">
+      <h5>&copy;Grocery - 2023   All Rights Reserved</h5>
+
+    </div>
+
+</div>
+
+
+
+
+    <br><br>
+
+
+
+
+
+
 
 
 </body>
